@@ -6,14 +6,14 @@ This repository contains Python code for predicting the survival of passengers a
 
 ## Overview
 
-In this project, we perform various steps of data preprocessing, exploratory data analysis, feature engineering, and model training to build a predictive model. Below is an overview of the main components of this repository:
+In this project, I perform various steps of data preprocessing, exploratory data analysis, feature engineering, and model training to build a predictive model. Below is an overview of the main components of this repository:
 
 ### Data Preprocessing
 
-- We start by importing necessary libraries and loading the Titanic dataset, which is divided into training and test sets.
-- We perform data cleaning by omitting irrelevant features and handling missing values.
+- I start by importing necessary libraries and loading the Titanic dataset, which is divided into training and test sets.
+- I perform data cleaning by omitting irrelevant features and handling missing values.
 - Categorical data (e.g., gender, embarked port) is converted into numerical format.
-- We standardize numerical features to ensure consistency in scale.
+- I standardize numerical features to ensure consistency in scale.
 
 ### Exploratory Data Analysis
 
@@ -23,7 +23,7 @@ In this project, we perform various steps of data preprocessing, exploratory dat
 
 ### Model Training and Validation
 
-- We implement logistic regression with L2 regularization (Ridge regression) to predict passenger survival.
+- I implement logistic regression with L2 regularization (Ridge regression) to predict passenger survival.
 - Cross-validation is performed to assess the model's performance and avoid overfitting.
 - Hyperparameter tuning is carried out to find the best combination of learning rate and regularization strength.
 
