@@ -1,4 +1,5 @@
 # Titanic Survival Prediction
+![titanic](titanic.gif)
 
 This repository contains Python code for predicting the survival of passengers aboard the Titanic using logistic regression with L2 regularization. The dataset used for this prediction task includes passenger information such as age, gender, class, ticket fare, and more.
 
